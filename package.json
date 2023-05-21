@@ -1,23 +1,23 @@
 {
-  "name": "rn-express-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon src/index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "fs": "^0.0.1-security",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.1",
-    "morgan": "^1.10.0",
-    "ngrok": "^3.2.7"
-  }
+	"name": "rn-express-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "5.1.0",
+		"body-parser": "1.20.2",
+		"cors": "2.8.5",
+		"dotenv": "16.0.3",
+		"express": "4.18.2",
+		"fs": "0.0.1-security",
+		"jsonwebtoken": "9.0.0",
+		"mongoose": "7.2.0",
+		"morgan": "1.10.0",
+		"ngrok": "4.3.3"
+	}
 }
