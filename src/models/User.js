@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema({
 		required: true,
 	},
 });
+
 //adding the protection to pswd
 //use function keyword not an arrow function
 //need to use "this.user" so cannot use arrow function
